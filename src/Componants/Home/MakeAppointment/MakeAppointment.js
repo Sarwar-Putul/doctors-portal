@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import doctor from '../../../images/doctor.png'
 import './MakeAppointment.css'
 
@@ -14,7 +15,7 @@ const MakeAppointment = () => {
                         <h5 style={{color:'#1CC7C1'}} className="text-uppercase ">Appointment</h5>
                         <h1 className="my-4">Make an Appointment <br/> Today</h1>
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque magnam ad consequuntur assumenda saepe hic amet nemo ea facere a!</p>
-                        <button className="btn btn-primary">Learn More</button>
+                        <Link to="#footer"><button className="btn btn-primary">Learn More</button></Link>                 
                     </div>
                 </div>
             </div>
